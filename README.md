@@ -4,6 +4,8 @@
 
 This is a simple **Snake Game** built using **Next.js** and **React**, with **Material UI (MUI)** for styling. The game follows classic snake mechanics where the player controls a snake to collect food while avoiding collisions with the walls and itself.
 
+## 📌 Live Demo at https://snakegame-jade.vercel.app/
+
 ## 🚀 Features
 
 - 🎮 **Classic Snake Gameplay** - Control the snake using arrow keys.
@@ -16,7 +18,7 @@ This is a simple **Snake Game** built using **Next.js** and **React**, with **Ma
 ### 1️⃣ Clone the Repository
 
 ```sh
-git clone https://github.com/your-username/snake-game-nextjs.git
+git clone https://github.com/Abdul-Aziz-dal/snake-game-nextjs
 cd snake-game-nextjs
 ```
 
