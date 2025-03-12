@@ -1,40 +1,94 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# Snake Game in Next.js
 
-## Getting Started
+## 📌 Overview
 
-First, run the development server:
+This is a simple **Snake Game** built using **Next.js** and **React**, with **Material UI (MUI)** for styling. The game follows classic snake mechanics where the player controls a snake to collect food while avoiding collisions with the walls and itself.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 🚀 Features
+
+- 🎮 **Classic Snake Gameplay** - Control the snake using arrow keys.
+- 🎨 **Material UI for Design** - Modern and responsive UI.
+- ⚡ **High Performance** - Optimized for fast rendering using Next.js.
+- 📊 **Score Tracking** - Keeps track of the player’s score.
+
+## 🛠️ Installation & Setup
+
+### 1️⃣ Clone the Repository
+
+```sh
+git clone https://github.com/your-username/snake-game-nextjs.git
+cd snake-game-nextjs
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2️⃣ Install Dependencies
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```sh
+npm install
+```
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+_or_
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+```sh
+yarn install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 3️⃣ Run the Development Server
 
-## Learn More
+```sh
+npm run dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+_or_
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+```sh
+yarn dev
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+The game will be available at **http://localhost:3000**.
 
-## Deploy on Vercel
+## 🎮 How to Play
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Start the game** by loading the page.
+- **Control the snake** using the arrow keys (`↑`, `↓`, `←`, `→`).
+- **Eat the food** to grow longer and increase the score.
+- **Avoid collisions** with the walls and yourself!
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+## 📂 Project Structure
+
+```
+/snake-game-nextjs
+├── public/          # Static assets
+├── pages/           # Next.js pages
+│   ├── index.js     # Main game page
+├──src
+|___ components/     # React components
+│   ├── SnakeGame.jsx  # Snake logic
+├── styles/          # CSS styles
+├── package.json     # Project dependencies
+└── README.md        # Project documentation
+```
+
+## 🎨 Technologies Used
+
+- **Next.js** - Framework for React.
+- **React** - UI Library.
+- **Material UI (MUI)** - Used for UI design and styling.
+- **useState & useEffect** - React hooks for game logic.
+
+## 💡 Future Enhancements
+
+- 🎵 **Add Sound Effects**
+- 🌎 **Multiplayer Mode**
+- 📱 **Mobile Controls (Swipe Support)**
+
+## 🤝 Contributing
+
+Feel free to contribute by submitting issues or pull requests!
+
+## 📜 License
+
+This project is open-source and available under the **MIT License**.
+
+---
+
+🚀 **Enjoy the game!** 🎉
